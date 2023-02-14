@@ -4,10 +4,10 @@ def calculateAbsolute():
     in_num  = int(input("Enter a number: "))
     if  in_num <= 21:
         difference = 21 - in_num
-        return f"Result: {difference}"
+        print(f"Result: {difference}")
     else:
         difference_2 = (in_num - 21) * 2
-        return f"Result: {difference_2}"
+        print(f"Result: {difference_2}")
         
 
 
